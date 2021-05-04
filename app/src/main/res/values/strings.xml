@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Bus Tracking System</string>
+    <string name="prefLoginState">loginstate</string>
+
+</resources>

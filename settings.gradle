@@ -1,0 +1,6 @@
+include ':app'
+rootProject.name='Bus Tracking System'
+/*
+rootProject.name='LogRIG'*/
+/*
+Bus Tracking System*/

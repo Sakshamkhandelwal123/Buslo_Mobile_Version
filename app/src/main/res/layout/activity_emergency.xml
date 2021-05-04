@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmergencyActivity">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Emergency"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:padding="15dp"
+        android:layout_margin="20sp"
+        />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_margin="15dp"
+        android:id="@+id/btn_accident"
+        android:text="Accident"
+       android:textSize="20sp"
+
+        />
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_margin="15dp"
+        android:id="@+id/btn_damage"
+        android:text="Damage"
+        android:textSize="20sp"
+
+        /> <Button
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_margin="15dp"
+    android:id="@+id/btn_passhealthpro"
+    android:text="Passanger Health Issue"
+    android:textSize="20sp"
+
+    /> <Button
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_margin="15dp"
+    android:id="@+id/_btn_longTrafic"
+    android:text="Long Trafic"
+    android:textSize="20sp"
+
+    /> <Button
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_margin="15dp"
+    android:id="@+id/btn_batter_low"
+    android:text="Battery Low"
+    android:textSize="20sp"
+
+    />
+
+</LinearLayout>
